@@ -1,8 +1,8 @@
 {
   "name": "@diegopm2000/bk-calculator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple calculator in Typescript",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "mocha -r ts-node/register src/*.spec.ts"
