@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "prepare": "npm run build",
     "test": "mocha -r ts-node/register src/*.spec.ts"
   },
   "author": "Diego Perez Molinero",
