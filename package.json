@@ -1,9 +1,10 @@
 {
   "name": "@diegopm2000/bk-calculator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple calculator in Typescript",
+  "main": "src/index.js",
   "scripts": {
-    "start": "ts-node index.ts",
+    "build": "tsc",
     "test": "mocha -r ts-node/register src/*.spec.ts"
   },
   "author": "Diego Perez Molinero",
