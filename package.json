@@ -2,11 +2,10 @@
   "name": "@diegopm2000/bk-calculator",
   "version": "0.1.3",
   "description": "A simple calculator in Typescript",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "./dist/*",
-    "./src/*"
+    "/dist"
   ],
   "scripts": {
     "build": "tsc",
